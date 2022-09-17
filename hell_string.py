@@ -15,7 +15,7 @@ def main():
         verify = int(randint(1, 50))
         okvai = int(input(f"Enter {verify} to continue: "))
         if okvai == verify:
-            print("\nChoose the string session type: \n1. WaruserBot (Telethon) \n2. Music Bot (Pyrogram) \n3. Instagram Session")
+            print("\nChoose the string session type: \n1. ALNuserBot (Telethon) \n2. Music Bot (Pyrogram) \n3. Instagram Session")
             while True:
                 library = input("\nYour Choice: ")
                 if library == "1":
